@@ -1,0 +1,73 @@
+<html>
+<head>
+	<link rel = "icon"
+	type = "image/png"
+	href = "MEDIA/U4.png">
+	<title> Arquitectura de Compus </title>
+	<meta charset = "utf-8">
+	<link rel = "stylesheet" type = "text/css" href = "CSS/styleUnidad.css">
+</head>
+<body>
+
+<header>
+	<img src = "MEDIA/Dell.png" alt = "Imagen izquierda" class = "imagen-izquierda">
+	   <h1>ARQUITECTURA DE COMPUTADORAS<br>
+	   UNIDAD 4</h1><br>
+	   <img src = "MEDIA/Windows7.png" alt = "Imagen derecha" class = "imagen-derecha">
+</header><br><br><br>
+
+	<a href = "Unidades.html"><FONT SIZE = 5><h3>abcde   VOLVER A LA PAGINA DE UNIDADES   edcba</h3></FONT></a><br>
+	<embed src="Docs/Equipo4.pdf" type="application/pdf" width="100%" height="600px" /><br>
+	<embed src="Docs/Equipo4Pt2.pdf" type="application/pdf" width="100%" height="600px" />
+	<br>
+	
+	<div>
+	  <div align = "center">
+	  <h3>Copyright© Derechos Reservados Cesar Alejandro Martinez Hernandez
+	<br>
+	CORREO INSTITUCIONAL: 20050202@SALTILLO.TECNM.MX
+	<br>
+	<img src = "MEDIA/Tec.png" width = "100" height = "80">
+	<img src = "MEDIA/tecDeMex.png" width = "150" height = "75"><A HREF = "https://saltillo.tecnm.mx/">PAGINA OFICIAL DEL INSTITUTO TECNOLOGICO DE SALTILLO</A>
+	</h3>
+	</div>
+
+	<h1>
+	<table class = "table">
+	<td>
+	<FONT SIZE = 15>
+	<div id="current_date">
+    	   <script>
+	     const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+             document.getElementById("current_date").innerHTML = new Date().toLocaleDateString('es-ES', options);
+    	   </script>
+	</FONT>
+	</h1>
+	<br>
+	
+
+<FONT SIZE = 15>LA HORA ES: </FONT>
+<script>
+   function startTime(){
+   today=new Date();
+   h=today.getHours();
+   m=today.getMinutes();
+   s=today.getSeconds();
+   m=checkTime(m);
+   s=checkTime(s);
+   meridiano = "";
+   {if(h < 12) {meridiano = "AM";}}
+   {if(h >= 12) {meridiano = "PM";}}
+   document.getElementById('reloj').innerHTML=h+":"+m+":"+s+meridiano;
+   t=setTimeout('startTime()',500);}
+   function checkTime(i)
+   {if (i<10) {i="0" + i;}return i;}
+   window.onload=function(){startTime();}
+</script>
+<FONT SIZE = 15>
+<div id="reloj"></div>
+</FONT>
+</td>
+</table>
+</body>
+</html>

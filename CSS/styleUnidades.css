@@ -1,0 +1,84 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: beige; /* Cambia el color de fondo según tus preferencias */
+    color: black; /* Cambia el color del texto */
+    padding: 10px;
+}
+
+body {
+    background-image: url("../Media/WindowsXP.png"); /* Ruta relativa para la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+
+@font-face{
+	font-family: GeometryDash;
+	src: url(OXYGENE1.TTF);
+}
+
+h1{
+	font-family: GeometryDash;
+	color: PURPLE;
+	text-shadow: 1px  1px 1px black,
+               1px  1px 1px black,
+              -1px  1px 1px black,
+               1px -1px 1px black;
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    font-family: GeometryDash;
+    src: url(OXYGENE1.TTF);
+    color: ORANGE;
+    text-align: center;
+    margin: 0;
+    text-shadow: 1px  1px 1px black,
+               1px  1px 1px black,
+              -1px  1px 1px black,
+               1px -1px 1px black;
+}
+
+h4{
+	FONT-FAMILY: GeometryDash;
+	src: url(OXYGENE.TTF);
+	color: ABCCBA;
+	text-align: right;
+        text-shadow: 1px  1px 1px black,
+               1px  1px 1px black,
+              -1px  1px 1px black,
+               1px -1px 1px black;
+}
+
+
+.imagen-izquierda {
+    width: 200px; /* Ajusta el tamaño */
+    margin-right: 10px; /* Espacio entre la imagen y el título */
+}
+
+.imagen-derecha {
+    width: 200px; /* Ajusta el tamaño según tus necesidades */
+    margin-left: 10px; /* Espacio entre la imagen y el título */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table td {
+    text-align: center;
+    background-color: LightBlue; /* Cambia el color de fondo */
+    color: #fff; /* Cambia el color del texto */
+    padding: 10px;
+    border: 1px solid #000; /* Agrega bordes para separar las celdas */
+}
+
+div{
+	text-transform: uppercase;
+	text-align: center;
+}

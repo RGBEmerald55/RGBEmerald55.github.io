@@ -1,0 +1,246 @@
+<html>
+<head>
+	<link rel = "icon"
+	type = "image/png"
+	href = "MEDIA/tecDeMex.png">
+	<title> Temario de Arquitectura de Computadoras </title>
+	<meta charset = "utf-8">
+	<link rel = "stylesheet" type = "text/css" href = "CSS/styleTemario.css">
+</head>
+<body>
+	<a name = "Ini" id = "Ini">
+	</a>
+	<header>
+	   <img src = "MEDIA/Dell.png" alt = "Imagen izquierda" class = "imagen-izquierda">
+	   <h1>ARQUITECTURA DE COMPUTADORAS<br>
+	   TEMARIO DE ESTAS UNIDADES</h1><br>
+	   <img src = "MEDIA/Windows7.png" alt = "Imagen derecha" class = "imagen-derecha">
+	</header><br><br><br>
+
+	
+	<h3><FONT SIZE = 15>abcde   INICIO   edcba</FONT></h3>
+
+	<br>
+	<br>
+
+	<A HREF = "index.html"><FONT SIZE = 5><h4>VOLVER A LA PAGINA PRINCIPAL</h4></FONT></A>
+
+	<table class = "table">
+	<td>
+	<h2>
+	<A HREF = "#Un1"> <FONT COLOR = "Purple"> Unidad1
+	</FONT>
+	</A>
+	</h2>
+	</td>
+
+	
+	<td>
+	<h2>
+	<A HREF = "#Un2"> <FONT COLOR = "Purple"> Unidad2
+	</FONT>
+	</A>
+	</h2>
+	</td>
+
+
+	<td>
+	<h2>
+	<A HREF = "#Un3"> <FONT COLOR = "Purple"> Unidad3
+	</FONT>
+	</A>
+	</h2>
+	</td>
+
+
+	<td>
+	<h2>
+	<A HREF = "#Un4"> <FONT COLOR = "Purple"> Unidad4
+	</FONT>
+	</A>
+	</h2>
+	</td>
+
+	</table>
+
+	<table class = "table">
+	   <td>
+	    <a name = "Un1" id = "Un1">
+	    </a>
+	    <h2><FONT COLOR = "WHITE">U</FONT><FONT COLOR = "BLACK">n<FONT COLOR = "WHITE">i<FONT COLOR = "BLACK">d<FONT COLOR = "WHITE">a<FONT COLOR = "BLACK">d<FONT COLOR = "WHITE"> 1 <FONT COLOR = "BLACK">: Arquitecturas de cómputo</h2>
+	    <br>
+	    </FONT>
+	    </FONT>
+	    <h2> 1.1 Modelos de arquitecturas de cómputo.<br>
+		 &nbsp;&nbsp;&nbsp;1.1.1 Clásicas.<br>
+		 &nbsp;&nbsp;&nbsp;1.1.2 Segmentadas.<br>
+		 &nbsp;&nbsp;&nbsp;1.1.3 De multiprocesamiento.<br>
+		 1.2 Análisis de los componentes.<br>
+		 &nbsp;&nbsp;&nbsp;1.2.1 CPU.<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.1.1 Arquitecturas.<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.1.2 Tipos.<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.1.3 Características.<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.1.4 Funcionamiento(ALU, unidad
+		 de control, Registros y buses
+		 internos)<br>
+		 &nbsp;&nbsp;&nbsp;1.2.2 Memoria.<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;1.2.2.1 Conceptos básicos del manejo
+		 de la memoria.<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;1.2.2.2 Memoria principal
+		 semiconductora.<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;1.2.2.3 Memoria cache<br>
+		 &nbsp;&nbsp;&nbsp;1.2.3 Manejo de la entrada/salida.<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.3.1 Módulos de entrada/salida.<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.3.2 Entrada/salida programada.<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.3.3 Entrada/salida mediante
+		 interrupciones.<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.3.4 Acceso directo a memoria.<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.3.5 Canales y procesadores de
+		 entrada/salida<br>
+		 &nbsp;&nbsp;&nbsp;1.2.4 Buses<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.4.1 Tipos de buses<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.4.2 Estructura de los buses<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.4.3 Jerarquías de buses<br>
+ 		 &nbsp;&nbsp;&nbsp;1.2.5. Interrupciones<br>  </h2>
+		 <A HREF = "#Ini"><FONT SIZE = 10><h5> Volver al Inicio </h5>
+		 </FONT>
+		 </A>
+		 
+		 
+	   </td>
+	   <td>
+	   <img src = "MEDIA/U1.png" width = "300px">
+	   </td>
+
+	<table class = "table">
+	   <td>
+	    <a name = "Un2" id = "Un2">
+	    </a>
+	    <h2><FONT COLOR = "BLACK">U</FONT><FONT COLOR = "WHITE">n<FONT COLOR = "BLACK">i<FONT COLOR = "WHITE">d<FONT COLOR = "BLACK">a<FONT COLOR = "WHITE">d<FONT COLOR = "BLACK"> 2<FONT COLOR = "WHITE">: Estructura y funcionamiento de la CPU</h2>
+	    <br>
+	    </FONT>
+	    </FONT>
+	    </FONT>
+	    <h2> 2.1 Organización del procesador.<br>
+	   	 2.2 Estructura de registros.<br>
+		 &nbsp;&nbsp;&nbsp;2.2.1 Registros visibles para el usuario.<br>
+		 &nbsp;&nbsp;&nbsp;2.2.2 Registros de control y de estados.<br>
+		 &nbsp;&nbsp;&nbsp;2.2.3 Ejemplos de organización de registros
+		 de CPU reales.<br>
+		 2.3 El ciclo de instrucción.<br>
+		 &nbsp;&nbsp;&nbsp;2.3.1 Ciclo Fetch-Decode-Execute.<br>
+		 &nbsp;&nbsp;&nbsp;2.3.2 Segmentación de instrucciones<br>
+		 &nbsp;&nbsp;&nbsp;2.3.3 Conjunto de instrucciones:
+		 Características y funciones.<br>
+		 &nbsp;&nbsp;&nbsp;2.3.4 Modos de direccionamiento y formatos.<br>  </h2>
+		 <A HREF = "#Ini"><FONT SIZE = 10><h5> Volver al Inicio </h5>
+		 </FONT>
+		 </A>
+	   </td>
+	   <td>
+	   <img src = "MEDIA/U2.png" width = "300px">
+	   </td>
+
+	<table class = "table">
+	   <td>
+	    <a name = "Un3" id = "Un3">
+	    </a>
+	    <h2><FONT COLOR = "WHITE">U</FONT><FONT COLOR = "BLACK">n<FONT COLOR = "WHITE">i<FONT COLOR = "BLACK">d<FONT COLOR = "WHITE">a<FONT COLOR = "BLACK">d<FONT COLOR = "WHITE"> 3<FONT COLOR = "BLACK">: Selección de componentes para ensamble de equipo de cómputo</h2>
+	    <br>
+	    </FONT>
+	    </FONT>
+	    <h2> 3.1. Chip Set.<br>
+	   	 3.2 Aplicaciones.<br>
+		 3.3. Ambientes de servicio.<br>  </h2>
+		 <A HREF = "#Ini"><FONT SIZE = 10><h5> Volver al Inicio </h5>
+		 </FONT>
+		 </A>
+	   </td>
+	   <td>
+	   <img src = "MEDIA/U3.png" width = "300px">
+	   </td>
+
+	<table class = "table">
+	   <td>
+	    <a name = "Un4" id = "Un4">
+	    </a>
+	    <h2><FONT COLOR = "BLACK">U</FONT><FONT COLOR = "WHITE">n<FONT COLOR = "BLACK">i<FONT COLOR = "WHITE">d<FONT COLOR = "BLACK">a<FONT COLOR = "WHITE">d<FONT COLOR = "BLACK"> 4<FONT COLOR = "WHITE">: Procesamiento paralelo</h2>
+	    <br>
+	    </FONT>
+	    </FONT>
+	    </FONT>
+	    <h2> 4.1 Aspectos Básicos de la Computación Paralela<br>
+		 4.2 Tipos de Computación Paralela<br>
+		 &nbsp;&nbsp;&nbsp;4.2.1 Clasificación<br>
+		 &nbsp;&nbsp;&nbsp;4.2.2 Arquitectura de Computadoras Secuenciales<br>
+		 &nbsp;&nbsp;&nbsp;4.2.3 Organización de Direcciones de Memoria<br>
+		 4.3 Sistemas de Memoria Compartida<br>
+		 &nbsp;&nbsp;&nbsp;4.3.1 Redes de Interconexión Dinámicas ó Indirectas<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.1.1 Redes de Medio Compartido<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.1.2 Redes Conmutadas<br>
+		 4.4 Sistemas de Memoria Distribuida: Multiprocesadores<br>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.1 Redes de Interconexión Estáticas<br>
+		 4.5 Casos de Estudio<br>  </h2>
+		 <A HREF = "#Ini"><FONT SIZE = 10><h5> Volver al Inicio </h5>
+		 </FONT>
+		 </A>
+	   </td>
+	
+	   <td>
+	   <img src = "MEDIA/U4.png" width = "300px">
+	   </td>
+
+	</table>
+	<br>
+	
+	<div>
+	  <div align = "center">
+	  <h3>Copyright© Derechos Reservados Cesar Alejandro Martinez Hernandez
+	<br>
+	CORREO INSTITUCIONAL: 20050202@SALTILLO.TECNM.MX
+	<br>
+	<img src = "MEDIA/Tec.png" width = "100" height = "80">
+	<img src = "MEDIA/tecDeMex.png" width = "150" height = "75"><A HREF = "https://saltillo.tecnm.mx/">PAGINA OFICIAL DEL INSTITUTO TECNOLOGICO DE SALTILLO</A>
+	</h3>
+	</div>
+
+	<h1>
+	<table class = "table">
+	<td>
+	<FONT SIZE = 15>
+	<div id="current_date">
+    	   <script>
+	     const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+             document.getElementById("current_date").innerHTML = new Date().toLocaleDateString('es-ES', options);
+    	   </script>
+	</FONT>
+	</h1>
+	<br>
+	
+
+<FONT SIZE = 15>LA HORA ES: </FONT>
+<script>
+   function startTime(){
+   today=new Date();
+   h=today.getHours();
+   m=today.getMinutes();
+   s=today.getSeconds();
+   m=checkTime(m);
+   s=checkTime(s);
+   meridiano = "";
+   {if(h < 12) {meridiano = "AM";}}
+   {if(h >= 12) {meridiano = "PM";}}
+   document.getElementById('reloj').innerHTML=h+":"+m+":"+s+meridiano;
+   t=setTimeout('startTime()',500);}
+   function checkTime(i)
+   {if (i<10) {i="0" + i;}return i;}
+   window.onload=function(){startTime();}
+</script>
+<FONT SIZE = 15>
+<div id="reloj"></div>
+</FONT>
+</td>
+</table>
+
+</body>
+</html>
